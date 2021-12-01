@@ -30,6 +30,13 @@ next semicolon. Set this as environment variable AOC_COOKIE.
 
 You should receive a lengthy text of characters '(' and ')'. If this works you are set to start.
 
+#### This fork's Alternative: using dotenv
+Create a .env file at root's project. Fill it with your environment variable
+
+    AOC_COOKIE='session=34543c7465645f5fdf...4e436254bca92710;'
+
+The solve util has been modified to use dotenv and retrieve the environment variable. For security, this 
+.env file is ignored on .gitignore.
 
 ### Run
 

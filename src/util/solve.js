@@ -1,4 +1,5 @@
 #!/usr/bin/node
+require("dotenv").config();
 const util = require('./util')
 const date = util.getAoCDate(process.argv[3], process.argv[4])
 const path = util.getDailyPath(date)
